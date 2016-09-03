@@ -1,0 +1,23 @@
+.owl-wrap {
+	width: 640px;
+	margin: 0 auto;
+}
+.owl-controls .owl-buttons {
+	position: relative;
+}
+.owl-controls .owl-buttons div {
+	position: absolute;
+	top: -140px;
+	font-size: 32px;
+	font-weight: bold;
+	background-color: #eee;
+	padding: 10px 20px;
+	border-radius: 100%;
+	color: white;
+}
+.owl-controls .owl-buttons .owl-prev {
+	left: -70px;
+}
+.owl-controls .owl-buttons .owl-next {
+	right: -70px;
+}
