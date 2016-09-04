@@ -15,18 +15,12 @@ $(function() {
 $(".basic-example").heapbox();
 
 //menu
-// $( '.dropdown' ).hover(
-//     function(){
-//         $(this).children('.sub-menu').slideDown(200);
-//     },
-//     function(){
-//         $(this).children('.sub-menu').slideUp(200);
-//     }
-// );
-
 $('.dropdown').hover(
 	function(){
-		$(this).children('.sub-menu').slideDown();
+		$(this).children('.sub-menu').slideDown()
+		.animate({
+			backgroundColor: '#1abc9c'
+		},1000);
 	},
 	function(){
 		$(this).children('.sub-menu').slideUp();

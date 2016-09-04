@@ -133,7 +133,7 @@ ul {
 	position: absolute;
 	top: 48px;
 	left: 0;
-	background-color: #27ae60;
+	background-color: #2ecc71;
 }
 .menu .sub-menu li {
 	width: 120px;
@@ -145,7 +145,7 @@ ul {
 	position: absolute;
 	left: 121px;
 	top: 0;
-	background-color: #27ae60;
+	background-color: #2ecc71;
 }
 .menu .sub-menu .sub-menu li {
 	width: 200px;
