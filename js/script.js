@@ -23,15 +23,12 @@ $('.dropdown').hover(
 		},1000);
 	},
 	function(){
-		$(this).children('.sub-menu').slideUp();
+		$(this).children('.sub-menu').slideUp()
+		.animate({
+			backgroundColor: '#2ecc71'
+		},1000);
 	}
 );
 
-
-
-
-
-
-
-
+//end
 });
