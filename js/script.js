@@ -20,13 +20,13 @@ $('.dropdown').hover(
 		$(this).children('.sub-menu').slideDown()
 		.animate({
 			backgroundColor: '#1abc9c'
-		},1000);
+		});
 	},
 	function(){
 		$(this).children('.sub-menu').slideUp()
 		.animate({
 			backgroundColor: '#2ecc71'
-		},1000);
+		});
 	}
 );
 
